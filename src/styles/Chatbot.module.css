@@ -112,3 +112,6 @@ h1 {
   text-align: left;
 }
 
+.message-text {
+  margin-right: 4px;
+}
