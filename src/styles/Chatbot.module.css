@@ -1,5 +1,5 @@
 body {
-  background-color: #000;
+  background-color: #222;
 }
 
 .chatbot-container {
@@ -24,7 +24,7 @@ body {
 }
 
 .message {
-  background-color: #333;
+  background-color: #222;
   border-radius: 5px;
   padding: 5px 10px;
   margin-bottom: 5px;
@@ -81,7 +81,13 @@ button:hover {
 }
 
 input[type='text']:focus {
-  background-color: #555;
+  background-color: #222;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .App {
@@ -92,6 +98,7 @@ input[type='text']:focus {
   min-height: 100vh;
   background-color: #1b1818;
 }
+
 
 h1 {
   color: #fff;
